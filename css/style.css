@@ -1,0 +1,87 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    justify-content: end;
+}
+
+.icono{
+    width: 50px;
+    height: 50px;
+}
+
+.container-fluid.justify-content-end .icono {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    transition: transform 0.3s, color 0.3s, font-size 0.3s;
+}
+
+.container-fluid.justify-content-end .icono:hover {
+    transform: scale(1.2); /* Hace más grande el icono al hacer hover */
+    cursor: pointer; /* Cambia el cursor al hacer hover */
+    transform: rotate(-20deg); /* Rota el icono al hacer hover */
+    opacity: 0.8; /* Cambia la opacidad al hacer hover */
+}
+
+.text-icono {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px; /* Tamaño de tipografía */
+    transition: font-size 0.3s, color 0.3s; /* Transiciones para el efecto hover */
+}
+
+.container-fluid.justify-content-end:hover .text-icono {
+    font-size: 20px; /* Tamaño de tipografía más grande al hacer hover */
+    color: #ff8800; /* Cambio de color del texto al hacer hover */
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: #965686  ;
+    font-size: 18px; /* Tamaño de tipografía original */
+    transition: font-size 0.3s, color 0.3s; /* Transiciones para el efecto hover */
+}
+
+.nav-link:hover {
+    font-size: 20px; /* Tamaño de tipografía al hacer hover */
+    color: #7c2c6c ; /* Cambio de color al hacer hover */
+}
+
+.titulocarousel {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    padding: 5px 10px; /* Espaciado interno */
+    font-size: 500%; /* Tamaño de la fuente */
+    margin-bottom: 2%;
+}
+
+.textocarousel{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 10px; /* Espaciado interno */
+    margin-bottom: 3%;
+}
+
+.carousel-button {
+    background-color: #ff8800;
+    border-color: #ff8800;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.carousel-button:hover {
+    background-color: #f26700; /* Cambio de color al hacer hover */
+    border-color: #f26700; /* Cambio de color del borde al hacer hover */
+}
+
+.btn-outline-light{
+    border: none;
+}
+
+.footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
